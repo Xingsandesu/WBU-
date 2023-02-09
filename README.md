@@ -1,6 +1,7 @@
 # WBU自动健康打卡
 ## 开源地址：https://github.com/Xingsandesu/WBUdaka
 ## 博客链接：https://kookoo.top/
+## 联系方式：1021461238@qq.com
 ## Python版本 3.11
 ## selenium版本 4.8
 ## WBU打卡 最新版本 1.3
