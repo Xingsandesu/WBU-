@@ -3,7 +3,19 @@
 ## 博客链接：https://kookoo.top/
 ## Python版本 3.11
 ## selenium版本 4.8
-## WBU打卡 最新版本 1.2
+## WBU打卡 最新版本 1.3
+
+# 相关运行库：
+- requests
+- os
+- json
+- schedule
+- webdriver
+- NoSuchElementException
+- Service
+- By
+- ChromeDriverManager
+- logging
 
 # 使用方法：
 
@@ -27,6 +39,14 @@
 ### 1.2
 - 设置默认窗口大小为Max
 - 添加填报信息完成后或者报错时，自动向企业微信转发屏幕内容
+### 1.3
+- 浏览器调用初始化默认设置为无界面，以避免在该脚本运行在Windows服务器上关闭RDP后无法正常初始化浏览器
+- 程序运行时现在会自动向企业微信发送消息
+- 添加日志系统
 
 # 未来更新计划:
 - POM支持
+- 辅导猫每日查寝自动签到
+
+# 成功范例
+![范例.png](https://kookoo.top/usr/uploads/2023/02/2366700625.png)
