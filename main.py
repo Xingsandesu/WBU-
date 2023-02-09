@@ -253,7 +253,7 @@ class Logger():
         sh = logging.StreamHandler()
 
         # 创建处理器：sh为控制台处理器，fh为文件处理器,log_file为日志存放的文件夹
-        log_file = os.path.join("autotest.log")
+        log_file = os.path.join("print.log")
         fh = logging.FileHandler(log_file, mode="a", encoding="UTF-8")
 
         # 创建格式器,并将sh，fh设置对应的格式
